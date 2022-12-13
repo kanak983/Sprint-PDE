@@ -1,0 +1,38 @@
+{
+    "user_attributes": {
+        "alice": {
+            "experience": 20,
+            "title": "distadmin"
+        },
+        "bob": {
+            "experience": 15,
+            "title": "teacher"
+        },
+        "eve": {
+            "experience": 5,
+            "title": "teacher"
+        },
+        "dave": {
+            "experience": 5,
+            "title": "schooladmin"
+        }
+    },
+    "REGOPolicy_attributes": {
+        "REGO123": {
+            "adopted": true,
+            "URL": "http://benchmarkuniverse.com/library/X12345"
+           
+        },
+        "REGO456": {
+            "adopted": false,
+            "URL": "http://benchmarkuniverse.com/library/X12345"
+           
+        },
+        "REGO789": {
+            "adopted": false,
+            "URL": "http://benchmarkuniverse.com/library/X12345"
+            
+        }
+        
+    }
+}
