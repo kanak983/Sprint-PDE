@@ -1,0 +1,14 @@
+{
+    "api" : {
+      "collectiveNounId" : "1111",
+      "collectiveNounType" : "Class",
+      "resource" : "http://benchmarkuniverse.com/library/X12345",
+      "url" : "<URL of the API called>",
+      "method": "<one of 'READ', 'POST', 'MODIFY', 'DELETE' and 'PATCH'>",
+      "target_user_id": "<User ID with API call target in string format, empty string if target is not specific>"
+    },
+     "user" : {
+      "id": "<ID of the user calling the current API>",
+      "role": "<Permissions of the user calling the current API, either 'DISTADMIN', 'SCHOOLADMIN' ,'TEACHER1' or 'TEACHER2'>"
+    }
+  }

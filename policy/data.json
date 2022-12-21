@@ -1,0 +1,17 @@
+{
+    "api": {
+      "/users/{user_id}/profile" : {
+        "READ": "profile.read",
+        "MODIFY": "profile.modify",
+        "DELETE": "profile.delete",
+        "resource" : "http://benchmarkuniverse.com/library/X12345"
+      }
+    },
+    "user_permission" : {
+      "schadmin" : ["profile.delete","profile.modify"],
+      
+      "teacher1" : ["profile.read","profile.modify"],
+      "teacher2" : ["profile.read"]
+      
+    }
+}
